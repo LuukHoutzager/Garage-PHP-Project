@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap');
+*{font-family: 'Libre Baskerville', serif;}
+
+body {
+  background: url("../img/garageachtergrond.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+  h1{
+  text-align: center;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .echo1{
+    text-align: center;
+  }
+
+  .footer{
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   box-shadow: 0 0px 10px rgb(128, 128, 130);
+   background-color: transparent;
+   color: black;
+   text-align: center;
+   font-weight: bold;
+  }
+
+  .ulmenu{
+  color:  #d3d3d3;
+  position: flex;
+  width: 250px;
+  margin: 10px auto 0;
+  padding: 8px;
+  margin-bottom: 1px;
+  box-sizing: border-box;
+  list-style-type: none;
+    background:  transparent;
+    box-shadow:  0 0 10px  #d3d3d3;
+    text-align: center;
+    margin-left: 596px;
+    border-radius: 5px;
+
+  }
+
+  .ulmenu a{
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .ulmenu a:visited{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+
+  .ulmenu li{
+    display: ;
+    padding: 10px 20px;
+    color: #fff;
+    margin: 5px 0;
+    transition: .5s;
+    font-weight: bold;
+  }
+
+
+  .ulmenu:hover{
+  transform: scale(1.06);
+  background:  transparent;
+  font-weight: bold;
+}
+
+
+  .terugmenu{
+    margin-top: 10px;
+    margin-left: 650px;
+    margin-right: 650px;
+    background: transparent;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #d3d3d3;
+  }
+
+  .terugmenu a{
+    text-decoration: none;
+  }
+
+  .terugmenu a:visited{
+    text-decoration: none;
+    color: black;
+  }
+
+.createauto{
+  text-align: center;
+  font-weight: bold;
+  margin: 100px auto;
+  margin-top: 35px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background: rgb(128,128,128);
+  padding: 30px;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0 0px 1000px rgb(128, 128, 130);
+  background: transparent;
+}
+
+.createautotext{
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid rgb(128, 128, 128);
+  padding: 10px;
+  color: #000;
+  width: 100%;
+  height: 15px;
+}
+
+.verzendenknop{
+background: transparent;
+text-align: center;
+padding: 10px;
+border-radius: 5px;
+color: #000 thick;
+cursor: pointer;
+text-transform: capitalize;
+font-weight: bold;
+border-color: rgb(128, 128, 130);
+}
+
+.tabellayout{
+  border-collapse: collapse;
+  border-radius: 10px;
+  margin: 15px 0;
+  min-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+  box-shadow: 0 0 100px #d3d3d3;
+
+}
+
+.tabellayout thead tr{
+  text-align: left;
+  font-weight: bold;
+}
+
+.tabellayout td{
+  padding: 5px 15px;
+}
+
+.tabellayout th{
+  padding: 5px 15px;
+}
+
+
+.zoekenklantid{
+  text-align: center;
+  font-weight: bold;
+  margin: 100px auto;
+  margin-top: 35px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background: rgb(128,128,128);
+  padding: 30px;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0 0px 1000px rgb(128, 128, 130);
+  background: transparent;
+}
+
+.zoekenklantidtext{
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  padding: 10px;
+  color: #000;
+  width: 100%;
+  height: 15px;
+  font-weight: bold;
+}
+
+.zoekenklantidinvul{
+  margin: 10px 0;
+  background: transparent;
+  border: 1px thin;
+  padding: 10px;
+  color: #000;
+  width: 100%;
+  height: 15px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.zoekenklantidup{
+  text-align: center;
+  font-weight: bold;
+  margin: 100px auto;
+  margin-top: 35px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background: rgb(128,128,128);
+  padding: 30px;
+  border-radius: 10px;
+  display: block;
+  box-shadow: 0 0px 1000px rgb(128, 128, 130);
+  background: transparent;
+}
+
+.zoekenklantiduptext{
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid rgb(128, 128, 128);
+  padding: 10px;
+  color: #000;
+  width: 100%;
+  height: 15px;
+  }
